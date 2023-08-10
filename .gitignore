@@ -10,6 +10,8 @@ lerna-debug.log*
 node_modules
 .DS_Store
 # dist
+dist/pcr
+dist/ihris
 dist-ssr
 coverage
 *.local
