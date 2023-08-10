@@ -9,9 +9,9 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <h1>WELCOME TO HRMDO PORTAL</h1>
       <br>
-      <a href="/ihris" style="margin: 15px; padding: 15px;">Go to IHRIS</a>
+      <a href="https://ihris.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to IHRIS</a>
 
-      <a href="/pcr" style="margin: 15px; padding: 15px;">Go to PCR-Online</a>
+      <a href="https://spms.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to PCR-Online</a>
       <!-- <HelloWorld msg="You did it!" />
 
       <nav>
