@@ -11,7 +11,7 @@ import HelloWorld from './components/HelloWorld.vue'
       <br>
       <a href="https://ihris.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to IHRIS</a>
 
-      <a href="https://spms.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to PCR-Online</a>
+      <a href="https://spms.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to SPMS Online</a>
       <!-- <HelloWorld msg="You did it!" />
 
       <nav>
