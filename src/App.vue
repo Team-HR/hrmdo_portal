@@ -1,6 +1,11 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloWorld from './components/HelloWorld.vue'
+
+function goTo(url) {
+  window.location.href = url;
+}
+
 </script>
 
 <template>
@@ -9,11 +14,14 @@ import HelloWorld from './components/HelloWorld.vue'
     <div class="wrapper">
       <h1>WELCOME TO HRMDO PORTAL</h1>
       <br>
-      <a href="https://ihris.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to IHRIS</a>
-
-      <a href="https://spms.hrmdo-lgubayawan.link" style="margin: 15px; padding: 15px;">Go to SPMS Online</a>
+<!-- 
+      <div class="card flex justify-content-center">
+       
+      </div> -->
+      <Button text label="IHRIS" class="mr-4" @click="goTo('https://ihris.hrmdo-lgubayawan.link')"/>
+      <Button text label="SPMS Online" @click="goTo('https://spms.hrmdo-lgubayawan.link')"/>
+     
       <!-- <HelloWorld msg="You did it!" />
-
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/about">About</RouterLink>
