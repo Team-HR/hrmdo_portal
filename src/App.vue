@@ -19,7 +19,7 @@ function goTo(url) {
        
       </div> -->
       <Button text label="IHRIS" class="mr-4" @click="goTo('https://ihris.hrmdo-lgubayawan.link')"/>
-      <Button text label="SPMS Online" @click="goTo('https://spms.hrmdo-lgubayawan.link')"/>
+      <Button text label="PMS Online" @click="goTo('https://spms.hrmdo-lgubayawan.link')"/>
      
       <!-- <HelloWorld msg="You did it!" />
       <nav>
